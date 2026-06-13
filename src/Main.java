@@ -14,6 +14,9 @@ public class Main {
             System.out.println("3 - Buscar produto");
             System.out.println("4 - Atualizar quantidade");
             System.out.println("5 - Remover produto");
+            System.out.println("6 - Entrada de estoque");
+            System.out.println("7 - Saída de estoque");
+            System.out.println("8 - Valor total do estoque");
             System.out.println("0 - Sair");
             System.out.print("Escolha uma opção: ");
 
@@ -71,6 +74,30 @@ public class Main {
                     int codigoRemover = scanner.nextInt();
 
                     estoque.removerProduto(codigoRemover);
+                    break;
+
+                case 6:
+                    System.out.print("Código do produto: ");
+                    int codigoEntrada = scanner.nextInt();
+
+                    System.out.print("Quantidade de entrada: ");
+                    int quantidadeEntrada = scanner.nextInt();
+
+                    estoque.entradaEstoque(codigoEntrada, quantidadeEntrada);
+                    break;
+
+                case 7:
+                    System.out.print("Código do produto: ");
+                    int codigoSaida = scanner.nextInt();
+
+                    System.out.print("Quantidade de saída: ");
+                    int quantidadeSaida = scanner.nextInt();
+
+                    estoque.saidaEstoque(codigoSaida, quantidadeSaida);
+                    break;
+
+                case 8:
+                    estoque.calcularValorTotalEstoque();
                     break;
 
                 case 0:
