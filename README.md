@@ -2,9 +2,19 @@
 
 Sistema desenvolvido em Java utilizando Programação Orientada a Objetos (POO) para gerenciamento de produtos em estoque.
 
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
+---
+
 ## 🎯 Objetivo
 
-Este projeto foi criado com o objetivo de praticar conceitos de desenvolvimento em Java, estruturação de código, manipulação de objetos e controle de estoque, simulando um cenário encontrado em empresas e comércios.
+Este projeto foi desenvolvido com o objetivo de praticar conceitos de Programação Orientada a Objetos (POO), estruturação de código, manipulação de coleções e controle de estoque utilizando Java.
+
+A aplicação simula um sistema utilizado por empresas e comércios para gerenciamento de produtos e movimentação de estoque.
+
+---
 
 ## 🚀 Funcionalidades
 
@@ -26,6 +36,10 @@ Este projeto foi criado com o objetivo de praticar conceitos de desenvolvimento 
 
 ✅ Validação de produtos duplicados
 
+✅ Listagem de produtos com estoque baixo
+
+---
+
 ## 🛠 Tecnologias Utilizadas
 
 - Java
@@ -33,6 +47,8 @@ Este projeto foi criado com o objetivo de praticar conceitos de desenvolvimento 
 - ArrayList
 - Git
 - GitHub
+
+---
 
 ## 📂 Estrutura do Projeto
 
@@ -43,6 +59,24 @@ src/
 └── Estoque.java
 ```
 
+---
+
+## 📸 Demonstração
+
+### Menu Principal
+
+![Menu Principal](assets/menu-principal.png)
+
+### Cadastro de Produto
+
+![Cadastro Produto](assets/cadastro-produto.png)
+
+### Listagem de Produtos
+
+![Lista Produtos](assets/lista-produtos.png)
+
+---
+
 ## ▶️ Como Executar
 
 ### 1. Clonar o repositório
@@ -51,11 +85,17 @@ src/
 git clone https://github.com/Zyfix-creator/sistema-controle-estoque.git
 ```
 
-### 2. Abrir no IntelliJ IDEA
+### 2. Entrar na pasta do projeto
+
+```bash
+cd sistema-controle-estoque
+```
+
+### 3. Abrir no IntelliJ IDEA
 
 Abra a pasta do projeto no IntelliJ IDEA.
 
-### 3. Executar
+### 4. Executar o sistema
 
 Execute o arquivo:
 
@@ -63,9 +103,9 @@ Execute o arquivo:
 Main.java
 ```
 
-## 📸 Demonstração
+---
 
-### Menu Principal
+## 💻 Exemplo de Utilização
 
 ```text
 === SISTEMA DE CONTROLE DE ESTOQUE ===
@@ -78,24 +118,34 @@ Main.java
 6 - Entrada de estoque
 7 - Saída de estoque
 8 - Valor total do estoque
+9 - Produtos com estoque baixo
 0 - Sair
 ```
 
-## 💡 Melhorias Futuras
+---
 
-- Persistência em banco de dados MySQL
+## 🔮 Melhorias Futuras
+
+- Persistência de dados em MySQL
 - Interface gráfica
-- Login de usuários
+- Sistema de login
 - Relatórios em PDF
-- Dashboard de produtos
-
-## 👨‍💻 Autor
-
-Gabriel Gonçalves Pereira e Silva
-
-- GitHub: https://github.com/Zyfix-creator
-- LinkedIn: https://www.linkedin.com/in/gabriel-gonçalves-47b2a3394/
+- Dashboard de estoque
+- Exportação de dados
+- Controle de usuários
 
 ---
 
-Projeto desenvolvido para estudo de Java e construção de portfólio para oportunidades na área de Tecnologia da Informação.
+## 👨‍💻 Autor
+
+**Gabriel Gonçalves Pereira e Silva**
+
+🎓 Ciência da Computação - UNA
+
+🔗 GitHub: https://github.com/Zyfix-creator
+
+🔗 LinkedIn: https://www.linkedin.com/in/gabriel-gon%C3%A7alves-47b2a3394/
+
+---
+
+⭐ Projeto desenvolvido para construção de portfólio e aprimoramento das habilidades em Java.
