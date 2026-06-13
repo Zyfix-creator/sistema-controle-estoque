@@ -113,4 +113,22 @@ public class Estoque {
 
         System.out.println("Valor total em estoque: R$ " + total);
     }
+
+    public void listarProdutosEstoqueBaixo() {
+        boolean encontrou = false;
+
+        System.out.println("\n=== PRODUTOS COM ESTOQUE BAIXO ===");
+
+        for (Produto produto : produtos) {
+            if (produto.getQuantidade() <= 5) {
+                System.out.println(produto);
+                encontrou = true;
+            }
+        }
+
+        if (!encontrou) {
+            System.out.println("Nenhum produto com estoque baixo.");
+        }
+    }
+
 }

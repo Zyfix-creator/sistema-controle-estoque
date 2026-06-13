@@ -17,6 +17,7 @@ public class Main {
             System.out.println("6 - Entrada de estoque");
             System.out.println("7 - Saída de estoque");
             System.out.println("8 - Valor total do estoque");
+            System.out.println("9 - Listar produtos com estoque baixo");
             System.out.println("0 - Sair");
             System.out.print("Escolha uma opção: ");
 
@@ -98,6 +99,10 @@ public class Main {
 
                 case 8:
                     estoque.calcularValorTotalEstoque();
+                    break;
+
+                case 9:
+                    estoque.listarProdutosEstoqueBaixo();
                     break;
 
                 case 0:
